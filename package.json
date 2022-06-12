@@ -1,0 +1,28 @@
+{
+  "name": "ts-ecommerce",
+  "version": "1.0.0",
+  "description": "e-commerce application",
+  "main": "index.js",
+  "scripts": {
+    "tsc:init": "tsc --init",
+    "build": "tsc",
+    "test": "tsc && jest dist/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vaahxx/ts-ecommerce.git"
+  },
+  "author": "vaahxx",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vaahxx/ts-ecommerce/issues"
+  },
+  "homepage": "https://github.com/vaahxx/ts-ecommerce#readme",
+  "dependencies": {
+    "typescript": "^4.7.3"
+  },
+  "devDependencies": {
+    "@types/jest": "^28.1.1",
+    "jest": "^28.1.1"
+  }
+}
